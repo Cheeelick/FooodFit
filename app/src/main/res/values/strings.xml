@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FooodFit</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="please_enter_your_info">please enter your info</string>
+    <string name="email_text_login">Email</string>
+    <string name="username_text_login">Login</string>
+    <string name="edit_text_password">Password</string>
+    <string name="button_authorization">authorization</string>
+    <string name="registration_text_login">registration\n</string>
+</resources>
