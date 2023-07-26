@@ -7,4 +7,7 @@
     <string name="edit_text_password">Password</string>
     <string name="button_authorization">authorization</string>
     <string name="registration_text_login">registration\n</string>
+    <string name="required">required</string>
+    <string name="button_logout">Logout</string>
+    <string name="registration_header">Registration\n</string>
 </resources>
