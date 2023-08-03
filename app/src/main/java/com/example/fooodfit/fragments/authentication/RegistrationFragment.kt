@@ -105,17 +105,7 @@ class RegistrationFragment: Fragment(R.layout.fragment_registration) {
             .addOnCompleteListener() { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(context, "Account created", Toast.LENGTH_SHORT).show()
-                    findNavController().navigate(
-                        R.id.action_registrationFragment_to_mainFragment2,
-                        bundleOf(),
-                        navOptions {
-                            anim {
-                                enter = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                                popEnter = androidx.navigation.ui.R.anim.nav_default_pop_enter_anim
-                                popExit = androidx.navigation.ui.R.anim.nav_default_pop_exit_anim
-                                exit = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                            }
-                        })
+                    findNavController().navigate(R.id.action_registrationFragment_to_mainFragment2)
                 } else {
                     Log.d(TAG, task.exception.toString())
                     Toast.makeText(context, "Authentication failed.", Toast.LENGTH_SHORT,).show()

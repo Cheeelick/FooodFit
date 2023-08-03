@@ -35,17 +35,7 @@ class LoginFragment: Fragment(R.layout.fragment_login){
         val password = binding.passwordEditText.text
         auth = Firebase.auth
 //        if (auth.currentUser != null){
-//            findNavController().navigate(
-//                R.id.action_loginFragment_to_mainFragment,
-//                bundleOf(),
-//                navOptions {
-//                    anim {
-//                        enter = androidx.navigation.ui.R.anim.nav_default_enter_anim
-//                        popEnter = androidx.navigation.ui.R.anim.nav_default_pop_enter_anim
-//                        popExit = androidx.navigation.ui.R.anim.nav_default_pop_exit_anim
-//                        exit = androidx.navigation.ui.R.anim.nav_default_enter_anim
-//                    }
-//                })
+//            findNavController().navigate( R.id.action_loginFragment_to_mainFragment)
 //        }
 
         emailFocusListener()
@@ -60,17 +50,7 @@ class LoginFragment: Fragment(R.layout.fragment_login){
         }
 
         binding.registrationText.setOnClickListener{
-            findNavController().navigate(
-                R.id.action_loginFragment_to_registrationFragment,
-                bundleOf(),
-                navOptions {
-                    anim {
-                        enter = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                        popEnter = androidx.navigation.ui.R.anim.nav_default_pop_enter_anim
-                        popExit = androidx.navigation.ui.R.anim.nav_default_pop_exit_anim
-                        exit = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                    }
-                })
+            findNavController().navigate(R.id.action_loginFragment_to_registrationFragment)
         }
 
         return binding.root
@@ -81,17 +61,7 @@ class LoginFragment: Fragment(R.layout.fragment_login){
         val validPassword = binding.passwordContainerText.helperText == null
 
         if (validEmail && validPassword){
-            findNavController().navigate(
-                R.id.action_loginFragment_to_mainFragment,
-                bundleOf(),
-                navOptions {
-                    anim {
-                        enter = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                        popEnter = androidx.navigation.ui.R.anim.nav_default_pop_enter_anim
-                        popExit = androidx.navigation.ui.R.anim.nav_default_pop_exit_anim
-                        exit = androidx.navigation.ui.R.anim.nav_default_enter_anim
-                    }
-                })
+            findNavController().navigate(R.id.action_loginFragment_to_mainFragment)
         }else{
             Toast.makeText(context, "Ooops...", Toast.LENGTH_SHORT).show()
         }
