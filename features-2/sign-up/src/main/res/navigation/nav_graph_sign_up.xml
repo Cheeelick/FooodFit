@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_sign_up"
+    app:startDestination="@id/registrationFragment">
+
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.sign_up.presentation.RegistrationFragment"
+        android:label="RegistrationFragment">
+        <action
+            android:id="@+id/action_registrationFragment_self"
+            app:destination="@id/registrationFragment" />
+
+        <deepLink app:uri="jetnavapp://registr"/>
+    </fragment>
+
+
+
+</navigation>

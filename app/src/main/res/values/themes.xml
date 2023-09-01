@@ -5,5 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.FooodFit" parent="Base.Theme.FooodFit" />
+    <style name="Theme.FooodFit.App" parent="Base.Theme.FooodFit" />
 </resources>

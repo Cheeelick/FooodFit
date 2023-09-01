@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">FooodFit</string>
     <string name="welcome_back">Welcome Back</string>
     <string name="please_enter_your_info">please enter your info</string>
     <string name="email_text_login">Email</string>

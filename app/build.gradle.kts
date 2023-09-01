@@ -36,9 +36,6 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    dataBinding {
-        enable = true
-    }
     viewBinding {
         enable = true
     }
@@ -70,4 +67,14 @@ dependencies {
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
+
+    implementation(project(":features-2:sign-up"))
+    implementation(project(":features-2:sign-in"))
+    implementation(project(":features-2:main"))
+    implementation(project(":features-2:food"))
+    implementation(project(":features-2:home"))
+
+
+
+
 }

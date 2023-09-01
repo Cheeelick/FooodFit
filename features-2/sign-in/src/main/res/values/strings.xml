@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="required">required</string>
+    <string name="edit_text_password">Password</string>
+    <string name="email_text_login">Email</string>
+    <string name="button_authorization">authorization</string>
+    <string name="registration_text_login">registration</string>
+    <string name="sign_in">SignUp</string>
+</resources>
