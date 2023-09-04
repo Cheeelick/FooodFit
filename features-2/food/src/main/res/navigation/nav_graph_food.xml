@@ -9,9 +9,7 @@
         android:id="@+id/foodFragment"
         android:name="com.example.food.presentation.FoodFragment"
         android:label="FoodFragment" >
-        <action
-            android:id="@+id/action_foodFragment_self"
-            app:destination="@id/foodFragment" />
+
 
         <deepLink app:uri="jetnavapp://food"/>
 
