@@ -71,8 +71,7 @@ dependencies {
     implementation(project(":features-2:sign-up"))
     implementation(project(":features-2:sign-in"))
     implementation(project(":features-2:main"))
-    implementation(project(":features-2:food"))
-    implementation(project(":features-2:home"))
+
 
 
 

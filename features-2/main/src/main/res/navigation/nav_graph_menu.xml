@@ -14,4 +14,14 @@
         android:id="@+id/foodFragment2"
         android:name="com.example.food.presentation.FoodFragment"
         android:label="FoodFragment" />
+
+    <fragment
+        android:id="@+id/fitnessFragment2"
+        android:name="com.example.fitness.FitnessFragment"
+        android:label="FitnessFragment" />
+
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.profile2.ProfileFragment"
+        android:label="ProfileFragment" />
 </navigation>

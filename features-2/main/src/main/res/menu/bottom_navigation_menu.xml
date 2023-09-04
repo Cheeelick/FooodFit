@@ -13,14 +13,15 @@
         android:enabled="true"
         android:title="" />
 
-<!--    <item-->
-<!--        android:id="@+id/fitnessFragment"-->
-<!--        android:icon="@drawable/baseline_fitness"-->
-<!--        android:enabled="true"-->
-<!--        android:title=""/>-->
-<!--    <item-->
-<!--        android:id="@+id/profileFragment"-->
-<!--        android:icon="@drawable/profile"-->
-<!--        android:enabled="true"-->
-<!--        android:title=""/>-->
+    <item
+        android:id="@+id/fitnessFragment2"
+        android:icon="@drawable/baseline_fitness"
+        android:enabled="true"
+        android:title=""/>
+
+    <item
+        android:id="@+id/profileFragment2"
+        android:icon="@drawable/profile"
+        android:enabled="true"
+        android:title=""/>
 </menu>
