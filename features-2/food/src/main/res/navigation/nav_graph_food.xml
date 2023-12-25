@@ -12,6 +12,5 @@
 
 
         <deepLink app:uri="jetnavapp://food"/>
-
     </fragment>
 </navigation>

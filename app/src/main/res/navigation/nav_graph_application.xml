@@ -9,6 +9,10 @@
     <include app:graph ="@navigation/nav_graph_main"/>
     <include app:graph ="@navigation/nav_graph_home"/>
     <include app:graph ="@navigation/nav_graph_food"/>
+    <include app:graph ="@navigation/nav_graph_profile"/>
+    <include app:graph ="@navigation/nav_graph_fitness"/>
+    <include app:graph ="@navigation/nav_graph_search"/>
+
 
 
 

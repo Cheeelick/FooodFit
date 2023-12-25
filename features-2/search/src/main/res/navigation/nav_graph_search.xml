@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_bottom_sheet_dialog"
+    app:startDestination="@id/searchBottomSheet">
+
+    <dialog
+        android:id="@+id/searchBottomSheet"
+        android:name="com.example.search.presentation.fragment.SearchFragment"
+        android:label="SearchBottomSheet">
+
+        <deepLink app:uri="jetnavapp://search" />
+    </dialog>
+</navigation>

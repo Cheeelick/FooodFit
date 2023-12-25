@@ -52,4 +52,5 @@ dependencies {
     implementation(project(":features-2:fitness"))
     implementation(project(":features-2:profile2"))
 
- }
+
+}

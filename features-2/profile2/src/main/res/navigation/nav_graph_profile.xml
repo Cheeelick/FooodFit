@@ -10,7 +10,7 @@
         android:label="ProfileFragment" >
 
 
-        <deepLink app:uri="jetnavapp://proile"/>
+        <deepLink app:uri="jetnavapp://profile"/>
     </fragment>
 
 </navigation>

@@ -7,17 +7,19 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="jbr-17" />
+        <option name="gradleJvm" value="jbr-17 (2)" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/data" />
             <option value="$PROJECT_DIR$/features-2" />
             <option value="$PROJECT_DIR$/features-2/fitness" />
             <option value="$PROJECT_DIR$/features-2/food" />
             <option value="$PROJECT_DIR$/features-2/home" />
             <option value="$PROJECT_DIR$/features-2/main" />
             <option value="$PROJECT_DIR$/features-2/profile2" />
+            <option value="$PROJECT_DIR$/features-2/search" />
             <option value="$PROJECT_DIR$/features-2/sign-in" />
             <option value="$PROJECT_DIR$/features-2/sign-up" />
           </set>
